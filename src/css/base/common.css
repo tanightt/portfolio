@@ -1,0 +1,65 @@
+:root {
+  --white-color: #ffffff;
+  --accent-color: #018abe;
+  --main-bg-color: #162831;
+  --ff-title: "Bona Nova", serif;
+  --ff-text: "Nunito Sans", sans-serif;
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+}
+
+body {
+  font-family: var(--ff-text);
+  color: var(--white-color);
+  background-color: var(--main-bg-color);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--ff-title);
+  font-weight: var(--fw-bold);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+img,
+picture {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+  color: inherit;
+  padding: 0;
+}
+
+a {
+  font-family: inherit;
+  color: inherit;
+  text-decoration: inherit;
+}
