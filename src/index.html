@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      rel="icon"
+      href="./images/logo/letters_logo.png"
+      sizes="40x40"
+      type="image/png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bona+Nova:wght@700&family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="container header">
+      <nav class="navigation">
+        <a href="./index.html" class="logo"
+          ><img src="./images/logo/logo.png" alt="logo"
+        /></a>
+        <ul class="nav-list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="header-btn">Download CV</button>
+      <div class="burger-menu">
+        <svg width="30" height="30">
+          <use href="./images/sprite.svg#burger"></use>
+        </svg>
+      </div>
+    </header>
+
+    <main>
+      <section class="container hero" id="home">
+        <div class="hero-text">
+          <h2>Tetiana Petruk</h2>
+          <p>Frontend developer</p>
+        </div>
+      </section>
+
+      <section class="container" id="about">
+        <h2 class="main-title">About me</h2>
+        <div class="about-container">
+          <img src="./images/sections_img/about.jpg" alt="photo" width="340" />
+          <p class="about-text">
+            I'm a Frontend Developer looking for a full-time job. I focus on
+            HTML, CSS, JavaScript, React.js, Node.js. I know how to work in a
+            team and be focused on results. Time management and attentiveness to
+            details are one of my strengths. I have always been fascinated by
+            how artists draw pictures, but unfortunately, I have no talent for
+            drawing. And I also like to solve complex problems. That's why I
+            chose the frontend in order to draw a whole world for an ordinary
+            Internet user - the size of a page.
+          </p>
+        </div>
+      </section>
+
+      <section class="container" id="skills">
+        <h2 class="main-title">Skills</h2>
+        <h3>FRONTEND</h3>
+        <h3>BACKEND</h3>
+        <h3>UTILS</h3>
+      </section>
+
+      <section class="container" id="projects">
+        <h2 class="main-title">Projects</h2>
+        <ul class="projects-list">
+          <li class="projects-item">
+            <img
+              class="projects-img"
+              src="./images/projects/watch.jpg"
+              alt="The watch spot"
+              width="350"
+            />
+            <h3 class="projects-title">The watch spot</h3>
+            <p class="projects-text">[HTML, CSS, JS]</p>
+          </li>
+          <li class="projects-item">
+            <img
+              class="projects-img"
+              src="./images/projects/book.jpg"
+              alt="Bookshelf"
+              width="350"
+            />
+            <h3 class="projects-title">Bookshelf</h3>
+            <p class="projects-text">[HTML, CSS, JS, Parcel, Axios]</p>
+          </li>
+          <li class="projects-item">
+            <img
+              class="projects-img"
+              src="./images/projects/money.jpg"
+              alt="Money Guard"
+              width="350"
+            />
+            <h3 class="projects-title">Money Guard</h3>
+            <p class="projects-text">
+              [React.js, Redux Toolkit, Axios, Formik, Yup]
+            </p>
+          </li>
+          <li class="projects-item">
+            <img
+              class="projects-img"
+              src="./images/projects/spiders.jpg"
+              alt="Borshchahivka Spiders"
+              width="350"
+            />
+            <h3 class="projects-title">Borshchahivka Spiders</h3>
+            <p class="projects-text">
+              [React.js, Axios, Formik, Yup, i18next, Styled Components]
+            </p>
+          </li>
+          <li class="projects-item">
+            <img
+              class="projects-img"
+              src="./images/projects/pet.jpg"
+              alt="Your Pet"
+              width="350"
+            />
+            <h3 class="projects-title">Your Pet</h3>
+            <p class="projects-text">
+              [React.js, Axios, Formik, Yup, Styled Components, Date-fns]
+            </p>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="container" id="contact">
+      <h2 class="main-title">Contact</h2>
+      <div class="contact-inf">
+        <div>
+          <h3 class="contact-subtitle">Tetiana Petruk</h3>
+          <p class="contact-text">Vinnytsia, Ukraine</p>
+          <address>
+            <ul>
+              <li class="contact-text">
+                <a href="tel:+380680214913">+38(068)-021-49-13</a>
+              </li>
+              <li class="contact-text">
+                <a href="mailto:taniapetruk@gmail.com">taniapetruk@gmail.com</a>
+              </li>
+            </ul>
+          </address>
+          <ul class="social-list">
+            <li>
+              <a href="https://t.me/tanight" target="_blank">
+                <svg width="50" height="50">
+                  <use href="./images/sprite.svg#telegram"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/tetiana-petruk"
+                target="_blank"
+              >
+                <svg width="50" height="50">
+                  <use href="./images/sprite.svg#linkedin"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/tanightt" target="_blank">
+                <svg width="50" height="50">
+                  <use href="./images/sprite.svg#github"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <img
+          class="contact-img"
+          src="./images/sections_img/thanks@1x.jpg"
+          srcset="
+            ./images/sections_img/thanks@1x.jpg 1x,
+            ./images/sections_img/thanks@2x.jpg 2x
+          "
+          alt="thanks"
+        />
+      </div>
+    </footer>
+
+    <script src="bundle.js"></script>
+  </body>
+</html>
