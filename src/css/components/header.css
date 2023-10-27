@@ -50,28 +50,43 @@
   }
 }
 
+.nav-item:hover,
+.nav-item:focus {
+  color: var(--accent-color);
+}
+
 .header-btn {
   display: none;
 }
 
 @media screen and (min-width: 768px) {
   .header-btn {
-    display: block;
+    display: flex;
+    gap: 10px;
+    align-items: center;
     height: 34px;
-    padding: 0 25px;
+    padding: 0 20px;
     border-radius: 3px;
     font-size: 13px;
     font-weight: var(--fw-semibold);
     line-height: 1.82;
     background-color: var(--accent-color);
+    fill: var(--white-color);
   }
 }
 
 @media screen and (min-width: 1200px) {
   .header-btn {
     height: 36px;
-    padding: 0 50px;
+    padding: 0 40px;
   }
+}
+
+.header-btn:hover,
+.header-btn:focus {
+  background-color: var(--white-color);
+  fill: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .burger-menu {

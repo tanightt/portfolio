@@ -27,6 +27,11 @@
   line-height: 2.52;
 }
 
+.address-text:hover,
+.address-text:focus {
+  color: var(--accent-color);
+}
+
 .contact-text::before {
   content: "";
   width: 18px;
@@ -40,6 +45,15 @@
   margin-top: 40px;
   display: flex;
   gap: 20px;
+}
+
+.social-item {
+  transition: transform 0.25s linear;
+}
+
+.social-item:hover,
+.social-item:focus {
+  transform: scale(1.1);
 }
 
 .contact-img {

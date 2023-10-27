@@ -29,14 +29,19 @@
           ><img src="./images/logo/logo.png" alt="logo"
         /></a>
         <ul class="nav-list">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About me</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li class="nav-item"><a href="#home">Home</a></li>
+          <li class="nav-item"><a href="#about">About me</a></li>
+          <li class="nav-item"><a href="#skills">Skills</a></li>
+          <li class="nav-item"><a href="#projects">Projects</a></li>
+          <li class="nav-item"><a href="#contact">Contact</a></li>
         </ul>
       </nav>
-      <button class="header-btn">Download CV</button>
+      <button class="header-btn">
+        Download CV
+        <svg width="15" height="15">
+          <use href="./images/sprite.svg#download"></use>
+        </svg>
+      </button>
       <div class="burger-menu">
         <svg width="30" height="30">
           <use href="./images/sprite.svg#burger"></use>
@@ -55,7 +60,12 @@
       <section class="container" id="about">
         <h2 class="main-title">About me</h2>
         <div class="about-container">
-          <img src="./images/sections_img/about.jpg" alt="photo" width="340" />
+          <img
+            src="./images/sections_img/about.jpg"
+            alt="photo"
+            width="340"
+            class="about-img"
+          />
           <p class="about-text">
             I'm a Frontend Developer looking for a full-time job. I focus on
             HTML, CSS, JavaScript, React.js, Node.js. I know how to work in a
@@ -71,9 +81,131 @@
 
       <section class="container" id="skills">
         <h2 class="main-title">Skills</h2>
-        <h3>FRONTEND</h3>
-        <h3>BACKEND</h3>
-        <h3>UTILS</h3>
+        <div class="skills-container">
+          <div>
+            <h3 class="skills-title">FRONTEND</h3>
+            <ul class="skills-list">
+              <li class="skills-item">
+                <svg class="skills-svg">
+                  <use href="./images/sprite.svg#html5"></use>
+                </svg>
+                <p>HTML</p>
+              </li>
+              <li class="skills-item">
+                <svg class="skills-svg">
+                  <use href="./images/sprite.svg#css3"></use>
+                </svg>
+                <p>CSS</p>
+              </li>
+              <li class="skills-item">
+                <svg class="skills-svg">
+                  <use href="./images/sprite.svg#js"></use>
+                </svg>
+                <p>JavaScript</p>
+              </li>
+              <li class="skills-item">
+                <svg class="skills-svg">
+                  <use href="./images/sprite.svg#react"></use>
+                </svg>
+                <p>React.js</p>
+              </li>
+              <li class="skills-item">
+                <svg class="skills-svg">
+                  <use href="./images/sprite.svg#redux"></use>
+                </svg>
+                <p>Redux</p>
+              </li>
+              <li class="skills-item">
+                <svg class="skills-svg">
+                  <use href="./images/sprite.svg#responsive"></use>
+                </svg>
+                <p>Responsive design</p>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="skills-title">BACKEND</h3>
+            <ul class="skills-list">
+              <li class="skills-item">
+                <svg class="skills-svg">
+                  <use href="./images/sprite.svg#nodejs"></use>
+                </svg>
+                <p>Node.js</p>
+              </li>
+              <li class="skills-item">
+                <svg class="skills-svg">
+                  <use href="./images/sprite.svg#mongodb"></use>
+                </svg>
+                <p>Mongo DB</p>
+              </li>
+              <li class="skills-item">
+                <svg class="skills-svg">
+                  <use href="./images/sprite.svg#swagger"></use>
+                </svg>
+                <p>Swagger</p>
+              </li>
+              <li class="skills-item">
+                <svg class="skills-svg">
+                  <use href="./images/sprite.svg#express"></use>
+                </svg>
+                <p>Express.js</p>
+              </li>
+              <li class="skills-item">
+                <svg class="skills-svg">
+                  <use href="./images/sprite.svg#docker"></use>
+                </svg>
+                <p>Docker</p>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="skills-title">UTILS</h3>
+            <ul class="skills-list">
+              <li class="skills-item">
+                <svg class="skills-svg">
+                  <use href="./images/sprite.svg#vs"></use>
+                </svg>
+                <p>VS code</p>
+              </li>
+              <li class="skills-item">
+                <svg class="skills-svg">
+                  <use href="./images/sprite.svg#github"></use>
+                </svg>
+                <p>GitHub</p>
+              </li>
+              <li class="skills-item">
+                <svg class="skills-svg">
+                  <use href="./images/sprite.svg#figma"></use>
+                </svg>
+                <p>Figma</p>
+              </li>
+              <li class="skills-item">
+                <svg class="skills-svg">
+                  <use href="./images/sprite.svg#postman"></use>
+                </svg>
+                <p>Postman</p>
+              </li>
+              <li class="skills-item">
+                <svg class="skills-svg">
+                  <use href="./images/sprite.svg#vercel"></use>
+                </svg>
+                <p>Vercel</p>
+              </li>
+              <li class="skills-item">
+                <svg class="skills-svg">
+                  <use href="./images/sprite.svg#trello"></use>
+                </svg>
+                <p>Trello</p>
+              </li>
+              <li class="skills-item">
+                <svg class="skills-svg">
+                  <use href="./images/sprite.svg#slack"></use>
+                </svg>
+                <p>Slack</p>
+              </li>
+            </ul>
+          </div>
+        </div>
       </section>
 
       <section class="container" id="projects">
@@ -147,23 +279,23 @@
           <p class="contact-text">Vinnytsia, Ukraine</p>
           <address>
             <ul>
-              <li class="contact-text">
+              <li class="contact-text address-text">
                 <a href="tel:+380680214913">+38(068)-021-49-13</a>
               </li>
-              <li class="contact-text">
+              <li class="contact-text address-text">
                 <a href="mailto:taniapetruk@gmail.com">taniapetruk@gmail.com</a>
               </li>
             </ul>
           </address>
           <ul class="social-list">
-            <li>
+            <li class="social-item">
               <a href="https://t.me/tanight" target="_blank">
                 <svg width="50" height="50">
                   <use href="./images/sprite.svg#telegram"></use>
                 </svg>
               </a>
             </li>
-            <li>
+            <li class="social-item">
               <a
                 href="https://www.linkedin.com/in/tetiana-petruk"
                 target="_blank"
@@ -173,10 +305,10 @@
                 </svg>
               </a>
             </li>
-            <li>
+            <li class="social-item">
               <a href="https://github.com/tanightt" target="_blank">
                 <svg width="50" height="50">
-                  <use href="./images/sprite.svg#github"></use>
+                  <use href="./images/sprite.svg#githubc"></use>
                 </svg>
               </a>
             </li>
