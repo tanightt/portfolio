@@ -198,64 +198,7 @@
 
       <section class="container" id="projects">
         <h2 class="main-title">Projects</h2>
-        <ul class="projects-list">
-          <li class="projects-item">
-            <img
-              class="projects-img"
-              src="./images/projects/watch.jpg"
-              alt="The watch spot"
-              width="350"
-            />
-            <h3 class="projects-title">The watch spot</h3>
-            <p class="projects-text">[HTML, CSS, JS]</p>
-          </li>
-          <li class="projects-item">
-            <img
-              class="projects-img"
-              src="./images/projects/book.jpg"
-              alt="Bookshelf"
-              width="350"
-            />
-            <h3 class="projects-title">Bookshelf</h3>
-            <p class="projects-text">[HTML, CSS, JS, Parcel, Axios]</p>
-          </li>
-          <li class="projects-item">
-            <img
-              class="projects-img"
-              src="./images/projects/money.jpg"
-              alt="Money Guard"
-              width="350"
-            />
-            <h3 class="projects-title">Money Guard</h3>
-            <p class="projects-text">
-              [React.js, Redux Toolkit, Axios, Formik, Yup]
-            </p>
-          </li>
-          <li class="projects-item">
-            <img
-              class="projects-img"
-              src="./images/projects/spiders.jpg"
-              alt="Borshchahivka Spiders"
-              width="350"
-            />
-            <h3 class="projects-title">Borshchahivka Spiders</h3>
-            <p class="projects-text">
-              [React.js, Axios, Formik, Yup, i18next, Styled Components]
-            </p>
-          </li>
-          <li class="projects-item">
-            <img
-              class="projects-img"
-              src="./images/projects/pet.jpg"
-              alt="Your Pet"
-              width="350"
-            />
-            <h3 class="projects-title">Your Pet</h3>
-            <p class="projects-text">
-              [React.js, Axios, Formik, Yup, Styled Components, Date-fns]
-            </p>
-          </li>
-        </ul>
+        <ul class="projects-list"></ul>
       </section>
     </main>
 
@@ -277,7 +220,12 @@
           </address>
           <ul class="social-list">
             <li class="social-item">
-              <a href="https://t.me/tanight" target="_blank">
+              <a
+                href="https://t.me/tanight"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="link to telegram"
+              >
                 <svg width="50" height="50">
                   <use href="./images/sprite.svg#telegram"></use>
                 </svg>
@@ -287,6 +235,8 @@
               <a
                 href="https://www.linkedin.com/in/tetiana-petruk"
                 target="_blank"
+                rel="noopener noreferrer"
+                aria-label="link to linkidin"
               >
                 <svg width="50" height="50">
                   <use href="./images/sprite.svg#linkedin"></use>
@@ -294,7 +244,12 @@
               </a>
             </li>
             <li class="social-item">
-              <a href="https://github.com/tanightt" target="_blank">
+              <a
+                href="https://github.com/tanightt"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="link to github"
+              >
                 <svg width="50" height="50">
                   <use href="./images/sprite.svg#githubc"></use>
                 </svg>
@@ -314,6 +269,16 @@
         />
       </div>
     </footer>
+
+    <div class="backdrop is-hidden">
+      <div class="modal container">
+        <button type="button" class="modal-button">
+          <svg class="modal-icon" width="10" height="10">
+            <use href="./images/sprite.svg#cross"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
 
     <script src="bundle.js"></script>
   </body>

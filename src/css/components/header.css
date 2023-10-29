@@ -59,7 +59,7 @@
   display: none;
 }
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   .header-btn {
     display: flex;
     gap: 10px;
@@ -80,7 +80,7 @@
     height: 36px;
     padding: 0 40px;
   }
-}
+} */
 
 .header-btn:hover,
 .header-btn:focus {
@@ -89,7 +89,7 @@
   color: var(--accent-color);
 }
 
-.burger-menu {
+/* .burger-menu {
   display: block;
 }
 
@@ -97,4 +97,8 @@
   .burger-menu {
     display: none;
   }
+} */
+
+.burger-menu {
+  display: none;
 }
