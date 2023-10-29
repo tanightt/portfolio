@@ -27,9 +27,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 45px;
-  font-size: 42px;
+  font-size: 35px;
+  gap: 35px;
+
   line-height: 5.88;
+}
+
+@media screen and (min-width: 375px) {
+  .main-title {
+    gap: 45px;
+    font-size: 42px;
+  }
 }
 
 .main-title::before,
@@ -67,7 +75,6 @@
 
 .about-text {
   max-width: 800px;
-  height: 483px;
   padding: 50px;
   border-radius: 10px;
   background: var(--accent-color);
@@ -91,7 +98,16 @@
 
 .skills-container {
   display: flex;
+  gap: 40px;
+  flex-direction: column;
   justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+  .skills-container {
+    gap: 0;
+    flex-direction: row;
+  }
 }
 
 .skills-title {
@@ -113,9 +129,16 @@
 }
 
 .skills-svg {
-  width: 70px;
-  height: 70px;
+  width: 50px;
+  height: 50px;
   fill: var(--accent-color);
+}
+
+@media screen and (min-width: 768px) {
+  .skills-svg {
+    width: 70px;
+    height: 70px;
+  }
 }
 
 .projects-list {
