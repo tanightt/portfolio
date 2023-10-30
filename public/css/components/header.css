@@ -59,13 +59,13 @@
   display: none;
 }
 
-/* @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .header-btn {
     display: flex;
     gap: 10px;
     align-items: center;
     height: 34px;
-    padding: 0 20px;
+    padding: 0 40px;
     border-radius: 3px;
     font-size: 13px;
     font-weight: var(--fw-semibold);
@@ -78,9 +78,9 @@
 @media screen and (min-width: 1200px) {
   .header-btn {
     height: 36px;
-    padding: 0 40px;
+    padding: 0 60px;
   }
-} */
+}
 
 .header-btn:hover,
 .header-btn:focus {
