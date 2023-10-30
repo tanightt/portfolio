@@ -1,0 +1,26 @@
+[
+  {
+    "svg": "../images/sprite.svg#vs",
+    "text": "VS code"
+  },
+  {
+    "svg": "../images/sprite.svg#github",
+    "text": "GitHub"
+  },
+  {
+    "svg": "../images/sprite.svg#figma",
+    "text": "Figma"
+  },
+  {
+    "svg": "../images/sprite.svg#postman",
+    "text": "Postman"
+  },
+  {
+    "svg": "../images/sprite.svg#vercel",
+    "text": "Vercel"
+  },
+  {
+    "svg": "../images/sprite.svg#trello",
+    "text": "Trello"
+  }
+]

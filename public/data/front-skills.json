@@ -1,0 +1,22 @@
+[
+  {
+    "svg": "../images/sprite.svg#html5",
+    "text": "HTML"
+  },
+  {
+    "svg": "../images/sprite.svg#css3",
+    "text": "CSS"
+  },
+  {
+    "svg": "../images/sprite.svg#js",
+    "text": "JavaScript"
+  },
+  {
+    "svg": "../images/sprite.svg#react",
+    "text": "React.js"
+  },
+  {
+    "svg": "../images/sprite.svg#redux",
+    "text": "Redux"
+  }
+]

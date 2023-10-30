@@ -1,0 +1,22 @@
+[
+  {
+    "svg": "../images/sprite.svg#nodejs",
+    "text": "Node.js"
+  },
+  {
+    "svg": "../images/sprite.svg#mongodb",
+    "text": "Mongo DB"
+  },
+  {
+    "svg": "../images/sprite.svg#swagger",
+    "text": "Swagger"
+  },
+  {
+    "svg": "../images/sprite.svg#express",
+    "text": "Express.js"
+  },
+  {
+    "svg": "../images/sprite.svg#docker",
+    "text": "Docker"
+  }
+]

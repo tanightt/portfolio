@@ -6,6 +6,7 @@ fetch("../data/projects.json")
 
     projects.forEach((project) => {
       const projectItem = document.createElement("li");
+
       projectItem.innerHTML = `<button class="projects-item">
     <img
       class="projects-img"
@@ -15,6 +16,7 @@ fetch("../data/projects.json")
     <h3 class="projects-title">${project.title}</h3>
     <p class="projects-text">${project.skills}</p>
   </button>`;
+
       projectsContainer.append(projectItem);
 
       projectItem
@@ -37,9 +39,10 @@ function openModal(project) {
   <div class="modal-container">
   <img class="modal-image" src="${project.imageSrc}" alt="${project.alt}" />
   <div>
-    <h3 class="modal-title">${project.title}</h3>
+    <h3 >${project.title}</h3>
     <ul class="modal-text">
       <li><p>${project.skills}</p></li>
+       <li><b>${project.type}</b></li>
       <li><p>Role: ${project.role}</p></li>
       <li><p>Responsible for: ${project.responsibleFor}</p></li>
       <li><p>${project.description}</p></li>
