@@ -18,6 +18,10 @@
   transform: scale(0.65);
 }
 
+.no-scroll {
+  overflow: hidden;
+}
+
 .modal {
   position: absolute;
   top: 50%;

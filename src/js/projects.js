@@ -1,11 +1,12 @@
-import projectsData from "../data/projects.json";
-const projects = projectsData.projects;
+fetch("../data/projects.json")
+  .then((response) => response.json())
+  .then((data) => {
+    const projects = data;
+    const projectsContainer = document.querySelector(".projects-list");
 
-const projectsContainer = document.querySelector(".projects-list");
-
-projects.forEach((project) => {
-  const projectItem = document.createElement("li");
-  projectItem.innerHTML = `<button class="projects-item">
+    projects.forEach((project) => {
+      const projectItem = document.createElement("li");
+      projectItem.innerHTML = `<button class="projects-item">
     <img
       class="projects-img"
       src="${project.imageSrc}"
@@ -14,12 +15,16 @@ projects.forEach((project) => {
     <h3 class="projects-title">${project.title}</h3>
     <p class="projects-text">${project.skills}</p>
   </button>`;
-  projectsContainer.append(projectItem);
+      projectsContainer.append(projectItem);
 
-  projectItem.querySelector(".projects-item").addEventListener("click", () => {
-    openModal(project);
-  });
-});
+      projectItem
+        .querySelector(".projects-item")
+        .addEventListener("click", () => {
+          openModal(project);
+        });
+    });
+  })
+  .catch((error) => console.error("Помилка завантаження даних:", error));
 
 const backdrop = document.querySelector(".backdrop");
 const modal = document.querySelector(".modal");
@@ -59,10 +64,13 @@ function openModal(project) {
   </div></div>
   `
   );
+
   const newCloseBtn = modal.querySelector(".modal-button");
   newCloseBtn.addEventListener("click", () => {
     closeModal();
   });
+
+  document.body.classList.add("no-scroll");
   backdrop.classList.remove("is-hidden");
 }
 
@@ -90,5 +98,7 @@ function closeModal() {
       </svg>
     </button>
   `;
+
+  document.body.classList.remove("no-scroll");
   backdrop.classList.add("is-hidden");
 }

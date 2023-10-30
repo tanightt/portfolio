@@ -1,59 +1,57 @@
-{
-  "projects": [
-    {
-      "title": "The watch spot",
-      "imageSrc": "../images/projects/watch.jpg",
-      "alt": "The watch spot",
-      "skills": "[HTML, CSS, JS]",
-      "role": "Developer",
-      "responsibleFor": "Sale section",
-      "description": "A website for the wristwatch store. Adaptive design, a burger menu, animations, and a modal window for making a purchase online.",
-      "livePage": "https://vyachuk.github.io/just-do-it/",
-      "gitHub": "https://github.com/Vyachuk/just-do-it"
-    },
-    {
-      "title": "Bookshelf",
-      "imageSrc": "../images/projects/book.jpg",
-      "alt": "Bookshelf",
-      "skills": "[HTML, CSS, JS, Parcel, Axios]",
-      "role": "Developer",
-      "responsibleFor": "Shopping list",
-      "description": "A website for the bookshop with an adaptive design. A user has the possibility to sign up, sign in, and sign out of their account. All user shopping cart items are stored in the database.",
-      "livePage": "https://kushnir2205.github.io/Make-IT-work/",
-      "gitHub": "https://github.com/Kushnir2205/Make-IT-work"
-    },
-    {
-      "title": "Money Guard",
-      "imageSrc": "../images/projects/money.jpg",
-      "alt": "Money Guard",
-      "skills": "[React.js, Redux Toolkit, Axios, Formik, Yup]",
-      "role": "Team Lead",
-      "responsibleFor": "the overall composing of the project and routes, conducting code review, and providing assistance in developing all sections",
-      "description": "An application designed to help users keep track of their financial transactions. It allows people to store information about their income and expenses.",
-      "livePage": "https://tanightt.github.io/RiverSoft/",
-      "gitHub": "https://github.com/tanightt/RiverSoft"
-    },
-    {
-      "title": "Borshchahivka Spiders",
-      "imageSrc": "../images/projects/spiders.jpg",
-      "alt": "Borshchahivka Spiders",
-      "skills": "[React.js, Axios, Formik, Yup, i18next, Styled Components]",
-      "role": "Developer",
-      "responsibleFor": "Header, Hero, What we do, Partners, all forms and website translation",
-      "description": "A website for Borshchahivka Spiders, a volunteer initiative weaving camouflage nets for the Armed Forces of Ukraine.",
-      "livePage": "http://www.pavuchky.com.ua/",
-      "gitHub": "https://github.com/pavuchky/pavuchky-frontend"
-    },
-    {
-      "title": "Your Pet",
-      "imageSrc": "../images/projects/pet.jpg",
-      "alt": "Your Pet",
-      "skills": "[React.js, Axios, Formik, Yup, Styled Components, Date-fns]",
-      "role": "Developer",
-      "responsibleFor": "User page (profile), pagination",
-      "description": "A website for Your Pets. The user can register, find a pet or put his pet up for sale.",
-      "livePage": "https://petgrammers-frontend.vercel.app/",
-      "gitHub": "https://github.com/Anna-Voronina/petgrammers-frontend"
-    }
-  ]
-}
+[
+  {
+    "title": "The watch spot",
+    "imageSrc": "../images/projects/watch.jpg",
+    "alt": "The watch spot",
+    "skills": "[HTML, CSS, JS]",
+    "role": "Developer",
+    "responsibleFor": "Sale section",
+    "description": "A website for the wristwatch store. Adaptive design, a burger menu, animations, and a modal window for making a purchase online.",
+    "livePage": "https://vyachuk.github.io/just-do-it/",
+    "gitHub": "https://github.com/Vyachuk/just-do-it"
+  },
+  {
+    "title": "Bookshelf",
+    "imageSrc": "../images/projects/book.jpg",
+    "alt": "Bookshelf",
+    "skills": "[HTML, CSS, JS, Parcel, Axios]",
+    "role": "Developer",
+    "responsibleFor": "Shopping list",
+    "description": "A website for the bookshop with an adaptive design. A user has the possibility to sign up, sign in, and sign out of their account. All user shopping cart items are stored in the database.",
+    "livePage": "https://kushnir2205.github.io/Make-IT-work/",
+    "gitHub": "https://github.com/Kushnir2205/Make-IT-work"
+  },
+  {
+    "title": "Money Guard",
+    "imageSrc": "../images/projects/money.jpg",
+    "alt": "Money Guard",
+    "skills": "[React.js, Redux Toolkit, Axios, Formik, Yup]",
+    "role": "Team Lead",
+    "responsibleFor": "the overall composing of the project and routes, conducting code review, and providing assistance in developing all sections",
+    "description": "An application designed to help users keep track of their financial transactions. It allows people to store information about their income and expenses.",
+    "livePage": "https://tanightt.github.io/RiverSoft/",
+    "gitHub": "https://github.com/tanightt/RiverSoft"
+  },
+  {
+    "title": "Borshchahivka Spiders",
+    "imageSrc": "../images/projects/spiders.jpg",
+    "alt": "Borshchahivka Spiders",
+    "skills": "[React.js, Axios, Formik, Yup, i18next, Styled Components]",
+    "role": "Developer",
+    "responsibleFor": "Header, Hero, What we do, Partners, all forms and website translation",
+    "description": "A website for Borshchahivka Spiders, a volunteer initiative weaving camouflage nets for the Armed Forces of Ukraine.",
+    "livePage": "http://www.pavuchky.com.ua/",
+    "gitHub": "https://github.com/pavuchky/pavuchky-frontend"
+  },
+  {
+    "title": "Your Pet",
+    "imageSrc": "../images/projects/pet.jpg",
+    "alt": "Your Pet",
+    "skills": "[React.js, Axios, Formik, Yup, Styled Components, Date-fns]",
+    "role": "Developer",
+    "responsibleFor": "User page (profile), pagination",
+    "description": "A website for Your Pets. The user can register, find a pet or put his pet up for sale.",
+    "livePage": "https://petgrammers-frontend.vercel.app/",
+    "gitHub": "https://github.com/Anna-Voronina/petgrammers-frontend"
+  }
+]
