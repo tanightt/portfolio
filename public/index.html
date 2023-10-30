@@ -20,10 +20,14 @@
       href="https://fonts.googleapis.com/css2?family=Bona+Nova:wght@700&family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,600&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="container header">
+    <header class="header">
       <nav class="navigation">
         <a href="./index.html" class="logo"
           ><img src="./images/logo/logo.png" alt="logo"
@@ -32,8 +36,12 @@
           <li class="nav-item"><a href="#home">Home</a></li>
           <li class="nav-item"><a href="#about">About me</a></li>
           <li class="nav-item"><a href="#skills">Skills</a></li>
-          <li class="nav-item"><a href="#projects">Projects</a></li>
-          <li class="nav-item"><a href="#contact">Contact</a></li>
+          <li class="nav-item projects-link">
+            <a href="#projects">Projects</a>
+          </li>
+          <li class="nav-item contact-link">
+            <a href="#contacts">Contacts</a>
+          </li>
         </ul>
       </nav>
       <a
@@ -44,15 +52,15 @@
         aria-label="link to CV"
       >
         CV
-        <svg width="15" height="15">
-          <use href="./images/sprite.svg#download"></use>
+        <svg width="20" height="20">
+          <use href="./images/sprite.svg#business-cv"></use>
         </svg>
       </a>
-      <div class="burger-menu">
+      <button class="burger-menu">
         <svg width="30" height="30">
           <use href="./images/sprite.svg#burger"></use>
         </svg>
-      </div>
+      </button>
     </header>
 
     <main>
@@ -71,8 +79,16 @@
             alt="photo"
             width="340"
             class="about-img"
+            data-aos="fade-right"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
           />
-          <p class="about-text">
+          <p
+            class="about-text"
+            data-aos="fade-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
             I'm a Frontend Developer looking for a full-time job. I focus on
             HTML, CSS, JavaScript, React.js, Node.js. I know how to work in a
             team and be focused on results. Time management and attentiveness to
@@ -88,15 +104,27 @@
       <section class="container" id="skills">
         <h2 class="main-title">Skills</h2>
         <div class="skills-container">
-          <div>
+          <div
+            data-aos="flip-right"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
             <h3 class="skills-title">FRONTEND</h3>
             <ul class="skills-list" id="front"></ul>
           </div>
-          <div>
+          <div
+            data-aos="flip-right"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
             <h3 class="skills-title">BACKEND</h3>
             <ul class="skills-list" id="back"></ul>
           </div>
-          <div>
+          <div
+            data-aos="flip-right"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
             <h3 class="skills-title">UTILS</h3>
             <ul class="skills-list" id="utils"></ul>
           </div>
@@ -105,14 +133,23 @@
 
       <section class="container" id="projects">
         <h2 class="main-title">Projects</h2>
-        <ul class="projects-list"></ul>
+        <ul
+          class="projects-list"
+          data-aos="zoom-in"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+        ></ul>
       </section>
     </main>
 
-    <footer class="container" id="contact">
-      <h2 class="main-title">Contact</h2>
+    <footer class="container" id="contacts">
+      <h2 class="main-title">Contacts</h2>
       <div class="contact-inf">
-        <div>
+        <div
+          data-aos="flip-right"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+        >
           <h3 class="contact-subtitle">Tetiana Petruk</h3>
           <p class="contact-text">Vinnytsia, Ukraine</p>
           <address>
@@ -173,6 +210,9 @@
             ./images/sections_img/thanks@2x.jpg 2x
           "
           alt="thanks"
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
         />
       </div>
     </footer>
@@ -187,6 +227,34 @@
       </div>
     </div>
 
+    <div class="mobile-menu">
+      <button type="button" class="mobile-button">
+        <svg class="mobile-icon" width="10" height="10">
+          <use href="./images/sprite.svg#cross"></use>
+        </svg>
+      </button>
+      <ul class="mobile-list">
+        <li class="mobile-item"><a href="#home">Home</a></li>
+        <li class="mobile-item"><a href="#about">About me</a></li>
+        <li class="mobile-item"><a href="#skills">Skills</a></li>
+        <li class="mobile-item"><a href="#projects">Projects</a></li>
+        <li class="mobile-item"><a href="#contact">Contact</a></li>
+      </ul>
+      <a
+        class="mobile-cv-btn"
+        href="https://drive.google.com/file/d/1yDTcVtiwWFUOfTPEyLWFzVxdB0D-l-nu/view?usp=sharing"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="link to CV"
+      >
+        CV
+        <svg width="20" height="20">
+          <use href="./images/sprite.svg#business-cv"></use>
+        </svg>
+      </a>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
     <script src="bundle.js"></script>
   </body>
 </html>
