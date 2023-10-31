@@ -147,6 +147,7 @@
 }
 
 .mobile-menu.is-open {
+  z-index: 1;
   pointer-events: initial;
   opacity: 1;
   visibility: visible;
