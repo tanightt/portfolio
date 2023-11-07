@@ -152,6 +152,12 @@
   flex-direction: column;
   gap: 15px;
   background-color: transparent;
+  transition: transform 0.25s linear;
+}
+
+.projects-item:hover,
+.projects-item:focus {
+  transform: scale(1.1);
 }
 
 .projects-img {

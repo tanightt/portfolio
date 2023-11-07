@@ -27,6 +27,12 @@
 
 .logo {
   width: 100px;
+  transition: transform 0.25s linear;
+}
+
+.logo:hover,
+.logo:focus {
+  transform: scale(1.1);
 }
 
 @media screen and (min-width: 768px) {
@@ -91,6 +97,7 @@
     line-height: 1.82;
     background-color: var(--accent-color);
     fill: var(--white-color);
+    transition: transform 0.25s linear;
   }
 }
 
@@ -112,6 +119,7 @@
   background-color: var(--white-color);
   fill: var(--accent-color);
   color: var(--accent-color);
+  transform: scale(1.1);
 }
 
 .burger-menu {
