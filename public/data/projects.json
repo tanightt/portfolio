@@ -9,7 +9,7 @@
     "responsibleFor": "Sale section",
     "description": "A website for the wristwatch store. Adaptive design, a burger menu, animations, and a modal window for making a purchase online.",
     "livePage": "https://vyachuk.github.io/just-do-it/",
-    "gitHub": "https://github.com/Vyachuk/just-do-it"
+    "gitHub": "https://github.com/tanightt/the-watch-spot.git"
   },
   {
     "title": "Bookshelf",
@@ -21,7 +21,7 @@
     "responsibleFor": "Shopping list",
     "description": "A website for the bookshop with an adaptive design. A user has the possibility to sign up, sign in, and sign out of their account. All user shopping cart items are stored in the database.",
     "livePage": "https://kushnir2205.github.io/Make-IT-work/",
-    "gitHub": "https://github.com/Kushnir2205/Make-IT-work"
+    "gitHub": "https://github.com/tanightt/bookshelf.git"
   },
   {
     "title": "Money Guard",
@@ -57,6 +57,6 @@
     "responsibleFor": "User page (profile), pagination",
     "description": "A website for Your Pets. The user can register, find a pet or put his pet up for sale.",
     "livePage": "https://petgrammers-frontend.vercel.app/",
-    "gitHub": "https://github.com/Anna-Voronina/petgrammers-frontend"
+    "gitHub": "https://github.com/tanightt/your-pet.git"
   }
 ]
